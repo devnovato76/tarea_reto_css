@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(209, 209, 209);
+  font-family: "Haas Grot Text R Web",
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
+    sans-serif;
+
+}
+
+.card {
+  background-image: linear-gradient(110deg, hsl(40deg 1% 55%) 0%, hsl(38deg 5% 53%) 4%, hsl(36deg 8% 51%) 9%, hsl(34deg 11% 49%) 13%, hsl(32deg 15% 47%) 18%, hsl(30deg 19% 45%) 23%, hsl(28deg 24% 43%) 28%, hsl(24deg 26% 43%) 34%, hsl(17deg 23% 46%) 41%, hsl(9deg 20% 49%) 49%, hsl(359deg 17% 51%) 56%, hsl(349deg 16% 52%) 61%, hsl(338deg 14% 52%) 66%, hsl(324deg 12% 53%) 71%, hsl(325deg 13% 54%) 76%, hsl(334deg 16% 56%) 80%, hsl(341deg 20% 57%) 84%, hsl(348deg 23% 59%) 88%, hsl(354deg 26% 61%) 92%, hsl(1deg 29% 62%) 96%, hsl(6deg 34% 62%) 100%);
+  width: 800px;
+  height: 600px;
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 150px auto;
+  position: relative;
+  -moz-border-radius: 10px;
+}
+
+.card1 {
+  background-image: linear-gradient(to bottom, #8F8E8C, #ce6f1c);
+  width: 250px;
+  height: 450px;
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  left: 120px;
+  top: 100px;
+}
+
+.card2 {
+  background-image: linear-gradient(180deg, rgb(167, 141, 163), rgb(191, 139, 111), rgb(194, 131, 142));
+  width: 250px;
+  height: 450px;
+  border: 1px solid rgb(101, 101, 101);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  position: absolute;
+  left: 450px;
+  top: 50px;
+}
+
+.card2 .puntaje {
+  background: rgba(239, 84, 136, 0.68);
+}
+
+.image {
+  width: 250px;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-radius: 10px;
+}
+
+.card1 .image img {
+  width: 450px;
+  height: 270px;
+  position: absolute;
+  top: -55px;
+  left: -115px;
+
+}
+
+sup {
+  font-size: 12px;
+}
+
+.card2 .image img {
+  width: 450px;
+  height: 280px;
+  position: absolute;
+  top: -30px;
+  left: -100px;
+
+}
+
+.card2 h6 {
+  color: rgb(239, 84, 136);
+}
+
+.text {
+  background-color: white;
+  border: 1px solid rgb(101, 101, 101);
+}
+
+h6 {
+  display: inline-block;
+  font-weight: 900;
+  margin: 20px 100px;
+  text-transform: uppercase;
+  color: rgb(240, 164, 11);
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: -15px;
+}
+
+.text p {
+  font-size: 12px;
+  color: #9e9ea7;
+}
+
+p {
+  margin: 20px;
+}
+
+.puntaje {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e29640c5;
+  border: 1px solid rgb(101, 101, 101);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+
+}
+
+.training,
+.speed,
+.cost {
+  width: 33%;
+
+  /* border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px; */
+  color: white;
+}
+
+div .speed,
+div .cost {
+  border-left: 1px solid rgb(101, 101, 101);
+}
+
+.training p,
+.speed p,
+.cost p {
+  font-size: 8px;
+  margin-top: -1px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 1.5em;
+}
